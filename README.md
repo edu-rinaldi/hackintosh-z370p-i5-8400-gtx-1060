@@ -28,3 +28,6 @@ Open Clover Configurator, mount efi partition, open config.plist and change "Hid
 **What works?**: 
 > everything except for HDMI Audio from Nvidia GPU (it can be fixed using *VooDooHDA.kext* but it's not good to have 2 "drivers" that do the same thing. (If you can find a fix you can suggest it to me i will add it to the repo with credits :sunglasses:
 
+
+## Screenshot
+![Screenshot](https://i.imgur.com/2oazaql.jpg)
