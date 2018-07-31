@@ -10,10 +10,11 @@
 1. If you have my same motherboard, cpu _(or similar cpu)_ and GPU you can directly copy and paste my `efi ssd` folder in your efi partition.
 2. If you have my same motherboard and cpu _(or similar cpu)_, you can copy my `efi ssd` folder, but you should:
 	* remove `WhateverGreen.kext` from *EFI/CLOVER/kexts/other/*
-	* regenerate `SSDT.aml` ( you can follow [this](https://www.tonymacx86.com/threads/guide-generate-ssdt-for-coffee-lake-cpu.238311/) guide )
 	* change config.plist :
 		- untick `System parameters->NvidiaWeb`
 		- use another ig-platform-id and enable intel gpu ( google is your friend )
+
+In **both** cases you should regenerate `SSDT.aml` ( you can follow [this](https://www.tonymacx86.com/threads/guide-generate-ssdt-for-coffee-lake-cpu.238311/) guide )
 
 If you're **NOT** in one of those two cases, you should **NOT** use my efi folder.
 
