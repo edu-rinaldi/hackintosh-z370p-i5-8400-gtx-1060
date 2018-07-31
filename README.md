@@ -20,6 +20,10 @@ If you're **NOT** in one of those two cases, you should **NOT** use my efi folde
 ## Enable Nvidia Card
 Checkout [this](https://www.tonymacx86.com/threads/fix-for-failure-nvidia-web-driver-on-high-sierra-black-screen-panics.234390/) guide from tonymacx86.com , it's easy to follow and it works like a charm :+1:
 
+## Extra tip
+Open Clover Configurator, mount efi partition, open config.plist and change "Hide volumes" based on your drives ( `GUI->Hide Volume`
+
 ## Final results
 **What works?**: 
 > everything except for HDMI Audio from Nvidia GPU (it can be fixed using *VooDooHDA.kext* but it's not good to have 2 "drivers" that do the same thing. (If you can find a fix you can suggest it to me i will add it to the repo with credits :sunglasses:
+
