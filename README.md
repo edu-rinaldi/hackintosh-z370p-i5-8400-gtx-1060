@@ -18,6 +18,12 @@ In **both** cases you should regenerate `SSDT.aml` ( you can follow [this](https
 
 If you're **NOT** in one of those two cases, you should **NOT** use my efi folder.
 
+**Nvidia cards are no longer supported** on Mac OS 10.14+ , so this efi folder (as it is) will not work on newer versions. 
+
+**Pro tip:** you can use Intel integrated gpu ( Intel® UHD Graphics 630 ) and it will work just fine!
+
+
+
 ## Enable Nvidia Card
 Checkout [this](https://www.tonymacx86.com/threads/fix-for-failure-nvidia-web-driver-on-high-sierra-black-screen-panics.234390/) guide from tonymacx86.com , it's easy to follow and it works like a charm :+1:
 
